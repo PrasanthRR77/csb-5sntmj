@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  gap: 10px;
+  /* flex: 0 1 0; */
+  width: 300px;
+  background-color: #ef476f;
+  padding: 20px;
+}
+
+.container > div {
+  display: flex;
+  flex: 4;
+  width: 300px;
+  justify-content: space-around;
+  flex-basis: 25px;
+  flex-shrink: 2;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #26547c;
+  color: white;
+  font-size: 16px;
+}
+
+input {
+  margin-left: 0px;
+  min-width: 190px;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 25px;
+}
+
+* {
+  border-radius: 10px;
+}
+
+/* #special {
+  flex-grow: 1;
+} */
